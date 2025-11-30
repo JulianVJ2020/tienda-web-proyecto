@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Estática - Proyecto</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="logo">MiTienda</h1>
+    <ul class="nav-links">
+      <li><a href="#products">Productos</a></li>
+      <li><a href="#about">Sobre Nosotros</a></li>
+      <li><a href="#video">Video Demo</a></li>
+    </ul>
+  </nav>
+
+  <header class="header">
+    <h2>Catálogo de Productos</h2>
+    <p>Explora y filtra artículos por categoría, precio y calificación.</p>
+  </header>
+
+  <section class="filters">
+    <select id="categoryFilter">
+      <option value="all">Todas las categorías</option>
+      <option value="Tecnología">Tecnología</option>
+      <option value="Ropa">Ropa</option>
+      <option value="Hogar">Hogar</option>
+    </select>
+
+    <select id="ratingFilter">
+      <option value="all">Cualquier calificación</option>
+      <option value="5">5 estrellas</option>
+      <option value="4">4 estrellas o más</option>
+      <option value="3">3 estrellas o más</option>
+    </select>
+
+    <input type="number" id="priceFilter" placeholder="Max precio" />
+  </section>
+
+  <section id="products" class="product-grid"></section>
+
+  <section id="about" class="about-section">
+    <h2>Sobre Nosotros</h2>
+    <p>
+      MiTienda es un proyecto académico que demuestra el uso de HTML, CSS y JavaScript para crear un catálogo dinámico con filtros interactivos. 
+      Este contenido es editable y representa la propuesta personal del estudiante para la actividad.
+    </p>
+  </section>
+
+  <section id="video" class="video-section">
+    <h2>Video de Demostración</h2>
+    <iframe 
+      width="100%" 
+      height="420" 
+      src="https://www.youtube.com/embed/VIDEO_ID" 
+      title="Video demo" 
+      frameborder="0" 
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 - Proyecto académico</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
