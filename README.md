@@ -1,66 +1,106 @@
-¿Quiénes Somos?
+# 🛒 MiTienda – Proyecto Académico de Desarrollo Web
 
-MiTienda es un proyecto académico orientado al desarrollo de un entorno web funcional inspirado en plataformas de comercio electrónico modernas. Nuestro objetivo es ofrecer a los usuarios una experiencia simple, clara y accesible, donde puedan explorar productos variados, conocer sus características y simular procesos básicos de compra.
+MiTienda es un proyecto académico desarrollado como parte de la Actividad 4 del módulo de Desarrollo Web.  
+Su objetivo es implementar un prototipo funcional basado en el diseño previamente creado en Figma, aplicando conceptos de **HTML5, CSS3, JavaScript y Bootstrap**, así como técnicas de despliegue en hosting gratuito.
 
-El proyecto fue diseñado inicialmente como una maqueta visual y posteriormente convertido en código utilizando tecnologías web como HTML5, CSS3, JavaScript y Bootstrap, siguiendo buenas prácticas de usabilidad y diseño responsive.
+Este proyecto simula una tienda en línea tipo Amazon o Mercado Libre, con navegación funcional y estructura completa de un e-commerce básico.
 
-MiTienda no es una tienda real, sino una demostración de habilidades en diseño web, estructuración de contenido, experiencia de usuario y despliegue en hosting gratuito para fines educativos.
+---
 
-⭐ Nuestra Misión
+## 📌 Objetivo del Proyecto
 
-Desarrollar un sitio web funcional, intuitivo y moderno que muestre la integración de conceptos aprendidos en HTML, CSS y JavaScript, permitiendo a los usuarios visualizar productos y navegar de forma cómoda y eficiente, demostrando el dominio de las tecnologías web aplicadas al comercio electrónico.
+- Transformar la maqueta creada en Figma en un sitio web real.  
+- Implementar una arquitectura de páginas basada en HTML, CSS y Bootstrap.  
+- Desarrollar componentes esenciales de un e-commerce:  
+  - Página de inicio  
+  - Catálogo de productos  
+  - Detalle de productos  
+  - Registro e inicio de sesión  
+  - Carrito  
+  - Página informativa  
+  - Página con video explicativo  
+- Publicar el proyecto en un servicio de **hosting gratuito** (GitHub Pages).  
+- Demostrar la comprensión de tecnologías web modernas.
 
-⭐ Nuestra Visión
+---
 
-Convertir este prototipo en una plataforma cada vez más completa, incorporando nuevas funciones como autenticación real, carrito de compras interactivo, manejo de inventarios y despliegue profesional, fortaleciendo así las competencias en desarrollo web y diseño frontend.
+## 🖥️ Tecnologías Utilizadas
 
-⭐ Nuestros Valores
+- **HTML5** — estructura del contenido  
+- **CSS3** — estilos personalizados  
+- **Bootstrap 5** — diseño responsive  
+- **JavaScript** — interactividad básica  
+- **Figma** — elaboración del prototipo visual  
+- **Git & GitHub** — control de versiones y despliegue  
+- **GitHub Pages** — hosting gratuito
 
-Aprendizaje constante: Cada módulo del proyecto representa una mejora en nuestras habilidades técnicas.
+---
 
-Innovación: Buscamos implementar diseños modernos y funcionales, inspirados en plataformas actuales.
+## 🌐 Enlace al Sitio Web (Hosting)
 
-Trabajo en equipo: La creación del sitio se desarrolló colaborativamente, como se planteó en la actividad académica.
+🔗 **Sitio publicado:**  
+`https://TU_USUARIO.github.io/MiTienda/`
 
-Responsabilidad: Todo el contenido, estructura y código ha sido elaborado desde cero, sin utilizar plantillas externas.
+*(Reemplazar TU_USUARIO con tu nombre de usuario de GitHub)*
 
-Calidad: Nos esforzamos por entregar un sitio organizado, limpio y visualmente agradable.
+---
 
-⭐ Sobre MiTienda
+## 🎥 Video Explicativo del Proyecto
 
-MiTienda es un catálogo digital que presenta productos variados con descripciones breves, imágenes (opcionales) y botones de navegación. Entre sus secciones principales se encuentran:
+🔗 **Video en YouTube:**  
+`https://youtu.be/TU_VIDEO`
 
-Inicio: Presentación del catálogo principal.
+El video incluye:
+- Presentación de la maqueta en Figma  
+- Explicación del diseño  
+- Construcción del sitio web (HTML, CSS, JS, Bootstrap)  
+- Organización de carpetas  
+- Proceso de subida al hosting (GitHub Pages)
 
-Productos: Vista general de los artículos disponibles.
+---
 
-Detalle del producto: Información individual de cada artículo.
+## 🧩 Estructura del Proyecto
 
-Registro: Formulario para crear cuenta de usuario.
 
-Ingresar: Simulación de inicio de sesión.
+---
 
-Carrito: Vista preliminar de productos seleccionados.
+## 🏬 Información sobre la Temática (incluida dentro de la app)
 
-Video demostrativo: Página que integra el video explicativo del proceso de creación del proyecto.
+**MiTienda** es una tienda virtual diseñada como demostración académica.  
+Su objetivo principal es simular la experiencia de un e-commerce básico, permitiendo al usuario visualizar productos, navegar entre secciones y conocer la estructura de una plataforma web moderna.
 
-El sitio ha sido desarrollado bajo principios de diseño responsive, adaptándose a diferentes tamaños de pantalla.
+El sitio incluye información relevante como:
+- Quiénes somos  
+- Misión  
+- Visión  
+- Valores  
+- Descripción del proyecto académico  
 
-⭐ Descripción del Proyecto Académico
+Esta información se encuentra dentro del archivo `acerca.html` como lo requiere la actividad.
 
-Este proyecto pertenece al módulo de Desarrollo Web y tiene como objetivo aplicar conceptos fundamentales de diseño, maquetación, implementación y despliegue.
-Durante el proceso se realizaron las siguientes etapas:
+---
 
-Diseño inicial en Figma: creación de prototipos, paleta de colores, tipografías y estructura general.
+## 👥 Autores del Proyecto
 
-Construcción del sitio web: implementación real del prototipo utilizando HTML5, CSS3, JavaScript y Bootstrap.
+- Nombre del estudiante 1  
+- Nombre del estudiante 2  
+- Nombre del estudiante 3  
+*(Reemplazar según el grupo — o dejar uno solo si aplicas solo)*
 
-Despliegue en hosting gratuito: uso de GitHub Pages u otra plataforma para alojar el proyecto.
+---
 
-Video explicativo: demostración del proceso de diseño, codificación y publicación del sitio.
+## 📚 Bibliografía Consultada
 
-Este trabajo refleja el uso práctico de los recursos bibliográficos sugeridos en la unidad, así como la aplicación de conceptos actuales en diseño web moderno.
+- Hawley, Todd. *The Complete Idiot’s Guide to HTML5 and CSS3* (2012).  
+- Houser, Alan. “How HTML5, CSS3, and Javascript Are Changing the Web” (2014).  
+- Deaton, Mary. *Stylin’ with CSS* (2008).  
+- Gordon, Rachel Singer. (2003).  
+- Owens, David. (2003).  
+- Recursos ofrecidos por la unidad académica.
 
-⭐ Mensaje Final del Proyecto
+---
 
-Gracias por visitar MiTienda, un proyecto creado con dedicación, creatividad y conocimientos adquiridos durante el módulo. Nuestro objetivo es demostrar que, con buenas prácticas y un enfoque correcto, es posible crear soluciones web funcionales que respondan a necesidades reales del mundo digital.
+## 📄 Licencia
+
+Este proyecto fue creado con fines exclusivamente académicos.  
+No representa una tienda real ni tiene fines comerciales.
