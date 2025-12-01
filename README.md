@@ -47,8 +47,8 @@ Este proyecto simula una tienda en línea tipo Amazon o Mercado Libre, con naveg
 
 ## 🎥 Video Explicativo del Proyecto
 
-🔗 **Video en YouTube:**  
-`https://youtu.be/TU_VIDEO`
+🔗 **Video:**  
+`https://drive.google.com/file/d/1I1tyFhkQv6YpClcdXjNQebalJXTREds_/view?usp=sharing`
 
 El video incluye:
 - Presentación de la maqueta en Figma  
