@@ -2,20 +2,55 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Tienda | Catálogo</title>
+    <title>Mi Tienda Online</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header>
-    <h1>Mi Tienda Online</h1>
+<header class="header">
+    <h1 class="logo">MiTienda</h1>
+
+    <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="carrito.html">Carrito</a>
+        <a href="login.html">Ingresar</a>
+        <a href="registro.html">Registro</a>
+    </nav>
+
+    <input type="text" placeholder="Buscar productos..." class="buscador">
 </header>
 
-<section class="productos" id="lista-productos">
-    <!-- Los productos se cargan desde app.js -->
+<section class="banner">
+    <h2>Bienvenido a MiTienda</h2>
+    <p>Catálogo simple tipo Amazon.</p>
 </section>
 
-<script src="app.js"></script>
+<section class="productos">
+    <div class="card">
+        <div class="imagen-placeholder"></div>
+        <h3>Producto 1</h3>
+        <p>Descripción breve del producto…</p>
+        <button>Ver</button>
+    </div>
+
+    <div class="card">
+        <div class="imagen-placeholder"></div>
+        <h3>Producto 2</h3>
+        <p>Descripción breve del producto…</p>
+        <button>Ver</button>
+    </div>
+
+    <div class="card">
+        <div class="imagen-placeholder"></div>
+        <h3>Producto 3</h3>
+        <p>Descripción breve del producto…</p>
+        <button>Ver</button>
+    </div>
+</section>
+
+<footer class="footer">
+    © 2025 MiTienda - Proyecto académico
+</footer>
+
 </body>
 </html>
-
