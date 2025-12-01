@@ -39,9 +39,7 @@ Este proyecto simula una tienda en línea tipo Amazon o Mercado Libre, con naveg
 ## 🌐 Enlace al Sitio Web (Hosting)
 
 🔗 **Sitio publicado:**  
-`https://TU_USUARIO.github.io/MiTienda/`
-
-*(Reemplazar TU_USUARIO con tu nombre de usuario de GitHub)*
+`[https://TU_USUARIO.github.io/MiTienda/](https://julianvj2020.github.io/tienda-web-proyecto/)`
 
 ---
 
@@ -76,16 +74,12 @@ El sitio incluye información relevante como:
 - Valores  
 - Descripción del proyecto académico  
 
-Esta información se encuentra dentro del archivo `acerca.html` como lo requiere la actividad.
 
 ---
 
 ## 👥 Autores del Proyecto
 
-- Nombre del estudiante 1  
-- Nombre del estudiante 2  
-- Nombre del estudiante 3  
-*(Reemplazar según el grupo — o dejar uno solo si aplicas solo)*
+- Julian Vega Joya  
 
 ---
 
