@@ -1,17 +1,36 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
 }
 
-header {
+/* HEADER */
+.header {
     background: #ffe000;
-    padding: 20px;
-    text-align: center;
-    font-size: 22px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
     font-weight: bold;
 }
 
+.nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.buscador {
+    padding: 8px;
+    width: 250px;
+}
+
+/* PRODUCTOS */
 .productos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -22,25 +41,73 @@ header {
 .card {
     background: white;
     padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    border-radius: 10px;
     text-align: center;
 }
 
-.card img {
-    max-width: 100%;
-    border-radius: 4px;
+.imagen-placeholder {
+    width: 100%;
+    height: 150px;
+    background: #ddd;
+    border-radius: 10px;
 }
 
-.card h3 {
+.imagen-grande-placeholder {
+    width: 300px;
+    height: 300px;
+    background: #ccc;
+    border-radius: 10px;
+}
+
+/* FORMULARIOS */
+.formulario {
+    background: white;
+    padding: 30px;
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
     margin: 10px 0;
 }
 
-.card button {
-    background: #3483fa;
-    border: none;
-    padding: 10px;
+/* CARRITO */
+.carrito {
+    padding: 30px;
+}
+
+.item-carrito {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.eliminar {
+    background: red;
     color: white;
-    border-radius: 4px;
-    cursor: pointer;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* PRODUCTO DETALLE */
+.producto-detalle {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background: #ffe000;
 }
